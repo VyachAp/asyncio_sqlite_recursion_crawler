@@ -2,7 +2,7 @@
 
 > Recursive parser to crawl wikipedia links in depths
 
-##MVP Release v1.0
+## MVP Release v1.0
 
 ### How to Run (Guide):
 
