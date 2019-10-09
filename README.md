@@ -14,3 +14,4 @@
 
 #### Warning: The more depth - the longer it will crawl, for example depth of 2 from given url takes about 12 minutes to be done and collects more than 20000 of urls. Every increment of depth will significanllty increase processing time.
 
+### Added notification to be sure that data is crawling and script works. (A bit noisy, but at least gives us understanding what is going on)
