@@ -32,6 +32,8 @@ class Crawler:
             for each in urls:
                 if each not in self.cached_urls:
                     self.cached_urls.append(each)
+                    if len(self.cached_urls) % 100 == 0:
+                        print(f'Crawled {len(self.cached_urls)} links')
                     conn.execute(pages.insert().values({'id': str(uuid.uuid4()), 'url': each, 'request_depth': depth}))
 
     async def update_relatives_table(self, parent_url, urls):
